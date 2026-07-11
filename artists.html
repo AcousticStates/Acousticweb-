@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Acoustic States works with musicians, composers, sound artists, and spatial audio creators."
+    />
+    <title>For Artists | Acoustic States</title>
+    <link rel="icon" type="image/png" href="assets/acoustic-states-mark.png" />
+    <link rel="stylesheet" href="styles.css?v=iris-clay-palette-20260622" />
+  </head>
+  <body class="detail-page artist-page">
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="index.html" aria-label="Acoustic States home">
+        <svg class="brand-logo logo-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+          <path class="logo-frame" d="M14 83 L50 7 L86 83 M14 83 H37 M63 83 H86" />
+          <g class="logo-pendulum">
+            <line class="logo-pendulum-line" x1="50" y1="7" x2="50" y2="71" />
+            <circle class="logo-pendulum-dot" cx="50" cy="76" r="8.7" />
+          </g>
+        </svg>
+        <span class="brand-name brand-wordmark" aria-hidden="true">
+          <svg class="wordmark-triangle" viewBox="0 0 100 100" focusable="false">
+            <path d="M50 8 L88 92 H12 Z" />
+          </svg>
+          <span>C</span><span class="wordmark-dot"></span><span>USTIC</span>
+          <span class="wordmark-space">ST</span>
+          <svg class="wordmark-triangle" viewBox="0 0 100 100" focusable="false">
+            <path d="M50 8 L88 92 H12 Z" />
+          </svg>
+          <span>TES</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation" data-nav>
+        <div class="nav-center">
+          <a href="index.html#what-it-is">What it is</a>
+          <a href="index.html#how-it-works">How it works</a>
+          <a href="science.html">Science</a>
+          <a href="index.html#about">About</a>
+        </div>
+        <div class="nav-actions">
+          <a href="practitioners.html">For Practitioners</a>
+          <a aria-current="page" href="artists.html">For Artists</a>
+          <a class="nav-contact" href="#contact">Get in touch</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="detail-hero artist-hero" id="top">
+        <canvas class="sound-canvas" data-sound-canvas aria-hidden="true"></canvas>
+        <div class="triquetra-field" aria-hidden="true">
+          <div class="tri-circle tri-a"></div>
+          <div class="tri-circle tri-b"></div>
+          <div class="tri-circle tri-c"></div>
+        </div>
+        <div class="detail-hero-copy">
+          <p class="eyebrow">For Artists</p>
+          <h1>You have felt it. Music is the cheapest drug out there.</h1>
+          <p>
+            Acoustic States works with musicians, composers, sound artists, and spatial audio creators to build intentional listening journeys for emotional, imaginative, and altered-state exploration.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Get in touch</a>
+            <a class="button button-secondary" href="#submit">Submit a piece</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section artist-grid" id="submit">
+        <div class="section-copy">
+          <p class="eyebrow">Deep listening work</p>
+          <h2>Create for the threshold between music, imagination, and wellbeing.</h2>
+        </div>
+        <div class="support-list">
+          <article>
+            <span>01</span>
+            <h3>Create work for deep listening.</h3>
+            <p>Shape sonic journeys designed for attention, emotion, embodiment, and altered-state exploration.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Reach new audiences.</h3>
+            <p>Bring your practice to listeners seeking meaningful, intentional, immersive sound experiences.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Be part of a research-driven sonic wellbeing platform.</h3>
+            <p>Collaborate with a team studying how sound affects imagination, emotion, and human experience.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Artist submission</p>
+          <h2>Send us a note about your sound practice or a piece you want us to hear.</h2>
+        </div>
+        <form class="contact-form" data-form>
+          <div class="form-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+          </div>
+          <label>
+            <span>Artist type</span>
+            <select name="artist">
+              <option>Musician</option>
+              <option>Composer</option>
+              <option>Sound artist</option>
+              <option>Spatial audio creator</option>
+            </select>
+          </label>
+          <label>
+            <span>Link or message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button button-primary" type="submit">Submit a piece</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <a class="back-to-top" href="#top" aria-label="Back to top">
+      <span aria-hidden="true">&uarr;</span>
+    </a>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a class="brand-mark" href="index.html" aria-label="Acoustic States home">
+          <svg class="brand-logo logo-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+            <path class="logo-frame" d="M14 83 L50 7 L86 83 M14 83 H37 M63 83 H86" />
+            <g class="logo-pendulum">
+              <line class="logo-pendulum-line" x1="50" y1="7" x2="50" y2="71" />
+              <circle class="logo-pendulum-dot" cx="50" cy="76" r="8.7" />
+            </g>
+          </svg>
+          <span class="brand-name" aria-hidden="true">Acoustic States</span>
+        </a>
+        <p>Sound that guides the mind.</p>
+        <p>A research-driven platform for intentional listening, altered states, and sonic wellbeing.</p>
+      </div>
+      <nav class="footer-group" aria-label="Footer navigation">
+        <h2>Navigation</h2>
+        <div class="footer-links">
+          <a href="index.html#what-it-is">What It Is</a>
+          <a href="science.html">The Science</a>
+          <a href="index.html#how-it-works">How It Works</a>
+          <a href="practitioners.html">For Practitioners</a>
+          <a href="artists.html">For Artists</a>
+          <a class="footer-demo-link button button-secondary button-compact" href="index.html#contact">Request a Demo</a>
+          <a href="index.html#waitlist">Join the Waitlist</a>
+          <a href="index.html#faq-title">FAQ</a>
+        </div>
+      </nav>
+      <div class="footer-group">
+        <h2>Legal</h2>
+        <div class="footer-links">
+          <span>Privacy Policy</span>
+          <span>Terms of Use</span>
+          <span>Confidentiality</span>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Acoustic States. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

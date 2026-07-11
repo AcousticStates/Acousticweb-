@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank you — Acoustic States</title>
+  <style>
+    :root{
+      --cream:#f1ece4;
+      --cream-deep:#ddd2c7;
+      --navy:#123a58;
+      --soft:#5f5f5c;
+      --pink:rgba(246,202,206,.38);
+    }
+    *{box-sizing:border-box}
+    body{
+      min-height:100svh;
+      margin:0;
+      display:grid;
+      place-items:center;
+      padding:24px;
+      background:
+        radial-gradient(ellipse at 50% 42%,rgba(246,202,206,.18),transparent 48%),
+        linear-gradient(145deg,var(--cream),#e7dfd4 58%,var(--cream-deep));
+      color:var(--navy);
+      font-family:"Helvetica Neue",Arial,sans-serif;
+    }
+    .card{
+      position:relative;
+      width:min(620px,100%);
+      padding:clamp(36px,6vw,62px) clamp(28px,5vw,58px);
+      border:1px solid rgba(255,255,255,.88);
+      border-radius:34px;
+      background:linear-gradient(145deg,rgba(248,245,239,.98),rgba(221,210,199,.94));
+      box-shadow:
+        inset 1px 1px 2px rgba(255,255,255,.92),
+        inset -2px -3px 5px rgba(18,58,88,.08),
+        0 24px 80px rgba(18,58,88,.16),
+        0 0 46px var(--pink);
+      text-align:center;
+    }
+    .mark{
+      width:58px;
+      height:auto;
+      margin:0 auto 24px;
+      display:block;
+      opacity:.96;
+    }
+    h1{
+      margin:0 0 18px;
+      font-family:Georgia,"Times New Roman",serif;
+      font-size:clamp(42px,6.2vw,68px);
+      line-height:.96;
+      letter-spacing:-.055em;
+      font-weight:400;
+    }
+    p{
+      margin:0 auto;
+      max-width:500px;
+      color:var(--soft);
+      font-size:clamp(18px,2vw,22px);
+      line-height:1.38;
+    }
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      margin-top:30px;
+      padding:0 24px;
+      border:1px solid rgba(255,255,255,.82);
+      border-radius:999px;
+      background:linear-gradient(145deg,rgba(255,255,255,.36),rgba(206,208,204,.22));
+      color:var(--navy);
+      text-decoration:none;
+      font-size:17px;
+      box-shadow:
+        inset 1px 1px 2px rgba(255,255,255,.9),
+        inset -2px -3px 5px rgba(18,58,88,.09),
+        0 9px 20px rgba(18,58,88,.09),
+        0 0 24px var(--pink);
+    }
+    .button:hover,
+    .button:focus-visible{
+      outline:0;
+      box-shadow:
+        inset 1px 1px 2px rgba(255,255,255,.94),
+        inset -2px -3px 5px rgba(18,58,88,.09),
+        0 10px 24px rgba(18,58,88,.12),
+        0 0 34px rgba(246,202,206,.52);
+    }
+  </style>
+</head>
+<body>
+  <main class="card" aria-labelledby="thank-you-title">
+    <img class="mark" src="assets/acoustic-states-triangle-line-blue-hq.png" alt="">
+    <h1 id="thank-you-title">You’re on the waitlist.</h1>
+    <p>Thank you for joining Acoustic States. You’ll receive updates on our digital beta version and hear when we have in-person or online gatherings :)</p>
+    <a class="button" href="acoustic_states_final_triangle_update.html#top">Back to Acoustic States</a>
+  </main>
+</body>
+</html>
